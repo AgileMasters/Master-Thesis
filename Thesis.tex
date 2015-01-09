@@ -1,0 +1,31 @@
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[norsk, english]{babel}
+\usepackage{cite}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{rotating}
+\usepackage{adjustbox}
+\usepackage{caption}
+\usepackage{xcolor}
+%%===================================
+%Write the various parts of your thesis as separate files and include them into the main file by the command \include{name of included file}. When you compile the LaTeX file, you may choose which subfiles to include by the command
+
+%\includeonly{chapter01,chapter02}
+
+%%===================================
+\begin{document}
+\setcounter{page}{0}
+\pagenumbering{roman}
+\tableofcontents
+\setcounter{page}{0}
+\pagenumbering{arabic}
+% Include more chapters as required.
+%%=========================================
+\appendix
+% Include more appendices as required.
+%%=========================================
+\bibliography{references}
+\bibliographystyle{plain}
+%%=============================================
+\end{document}
