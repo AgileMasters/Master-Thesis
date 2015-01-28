@@ -1,4 +1,4 @@
-\documentclass[12pt]{report}
+\documentclass[12pt, a4paper]{report}
 \usepackage[utf8]{inputenc}
 \usepackage[norsk, english]{babel}
 \usepackage{cite}
@@ -15,11 +15,21 @@
 
 %%===================================
 \begin{document}
-\setcounter{page}{0}
 \pagenumbering{roman}
+\begin{abstract}
+\end{abstract}
+\setcounter{page}{1}
+\clearpage
+\setcounter{page}{2}
 \tableofcontents
+\clearpage
 \setcounter{page}{0}
 \pagenumbering{arabic}
+\include{introduction}
+\include{method}
+\include{results}
+\include{discussion}
+\include{conclusion}
 % Include more chapters as required.
 %%=========================================
 \appendix
