@@ -63,25 +63,25 @@ For our case we are going use absolute frequencies to count the occurrences of d
 
 \subsection{Pilot Analysis}
 Settling on tabulations as our means of content analysis the different categories had to determined. We performed a pilot study.
- The pilot study was conducted in order to investigate the potential of analysing a set of 77 retrospective reports. The reports were acquired through an advisor, Nils Brede Moe. The reports stretched from 17.08.2009 to 15.12.2014. The reports were from DNV. The pilot study was limited to 11 reports, where we picked every 7th retrospective chronologically. This distribution was chosen in order to get an even spread to represent the whole set, as well as keep the size managable for the  short preliminary study.
+The pilot study was conducted in order to investigate the potential of analyzing a set of the 77 retrospective reports.  The pilot study was limited to 11 reports, where we picked every 7th retrospective chronologically. This distribution was chosen in order to get an even spread to represent the whole set, as well as keep the size manageable for the short preliminary study.
 
-The pilot study analysis lasted for one week, and included agreeing on the paramaters and methods for the study, as well as a short workshop session where the results were prestented in front of a group of SINTEF personell. This workshop session consisted of a short presentation of the findings of the study. After the presentation we had a brainstorming session where we recived feeback on potential improvements, as well as general impressions. 
+The pilot study analysis lasted for one week, and included agreeing on the parameters and methods for the study, as well as a short workshop session where the results were presented in front of a group of fellow researchers. This workshop session consisted of a short presentation of the findings of the study. After the presentation we had a brainstorming session where we received feedback on potential improvements, as well as general impressions. 
 
-
-\begin{figure}[h!]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=\textwidth]{figures/Pilot_loop.PNG}
 	\caption{An example of a slide from the pilot study presentation }
 	\label{figure:Pilot Slide}
 \end{figure}
-\subsection{Categories}\label{method:categories}
-The results of our pilot analysis gave us an extended set of categories that we will now describe further. Mainly we found six main themes that we could derive categories from. The six themes were: Nature, Context, Decision Making, Organizational Learning, Development and Management. We will describe each of these themes and their set of categories further in the sections below. A complete list is shown in \autoref{table:content-analysis-categories}
 
-\begin{table}[!h]
+\subsection{Categories}\label{method:categories}
+The results of our pilot analysis gave us an extended set of categories that we will now describe further. Mainly we found six main themes that we could derive categories from. The six themes were: Nature, Context, Decision Making, Organizational Learning, Development and Management. We will describe each of these themes and their set of categories further in the sections below. A complete list is shown in \autoref{table:content-analysis-categories}. 
+
+\begin{table}[h]
 	\begin{center}
 		\caption{The final set of themes and categories that the content analysis is based upon.}
 		\label{table:content-analysis-categories}
-		\begin{adjustbox}{width=\textwidth, totalheight=0.95\textheight, keepaspectratio}
+		\begin{adjustbox}{width=\textwidth, totalheight=0.9\textheight, keepaspectratio}
 			\begin{tabular}{| l | l | p{0.5\textwidth} |}
 			\hline
 			Theme & Category & Short Description  \\
@@ -109,17 +109,18 @@ The results of our pilot analysis gave us an extended set of categories that we 
 			& Business & The action is related to business development \\ \cline{2-3}
 			& Undefined & The action is not related to any of the development phases described above \\ 
 			\hline
-			Management & Communication & Related to communication within a team \\ \cline{2-3}
+			Collaboration & Communication & Related to communication within a team \\ \cline{2-3}
 			& Leadership & Action is related to leadership \\ \cline{2-3}
-			& Incompetence & Action is a result of lacking knowledge or experience \\ \cline{2-3}
+			& Competence & Action is a result of lacking knowledge or experience \\ \cline{2-3}
 			& External relations & The action is related to customer relations or other external stakeholders \\ \cline{2-3}
 			& Planning & The action is a result of bad or good planning \\ \cline{2-3}
-			& Undefined & Action is not related to any of the management issues \\
+			& Undefined & Action is not related to any of the collaboration issues \\
 			\hline
 			\end{tabular}
 		\end{adjustbox}
 	\end{center}
 \end{table}
+\afterpage{\clearpage}
 
 \subsubsection{Nature}
 The nature of the action is the first theme that the content analysis is going to inspect. We define the nature of the action as how the origins of the action began. Did they come from a problem that occurred during the iteration or is it a continuation of something that has been working well in the past. Through our analysis we will try to understand the origins of the actions and classify them either as positive, negative or undefined. We define what we classify as what below. 
@@ -132,7 +133,7 @@ The nature of the action is the first theme that the content analysis is going t
 \paragraph{Undefined}
 \subsubsection{Decision Making}
 \paragraph{Strategic}
-\paragraph{Tactical}
+\paragraph{Tactical} 
 \paragraph{Operational}
 \paragraph{Undefined}
 \subsubsection{Organizational Learning}
@@ -147,14 +148,34 @@ The nature of the action is the first theme that the content analysis is going t
 \paragraph{Release}
 \paragraph{Business}
 \paragraph{Undefined}
-\subsubsection{Management}
+\subsubsection{Collaboration}
+One of the aspects during a software developing process is collaboration. Fægri ~\cite{Faegri2012} describes collaboration as the following: 
+\begin{quote}
+Collaboration is a key aspect of software development. Collaboration allows groups of software practitioners to deal with uncertainty, complexity and interdependence. And in dealing with these challenges, the group demonstrates its collective problem-solving ability.
+\end{quote}
+Through our pilot analysis we registered several activities that are related to collaboration. Communication, leadership, competence, external relations and planning all belongs beneath the collaboration banner, and we describe in detail how we classify each of them below. 
 \paragraph{Communication}
+Communication is a widely used word and concept, but it rarely is defined. By using Merriam-Webster dictionary ~\cite{MerriamWebster2015} we found a definition that can serve as a clarification: 
+\begin{quote}
+The act or process of using words, sounds, signs, or behaviors to express or exchange information or to express your ideas, thoughts, feelings, etc., to someone else.
+\end{quote}
+Nakakoji et al. ~\cite{Nakakoji2010} distinguishes between two types of communication related to software development, coordination communication and expertise communication. The first one being the process of coordinating the development activities and the last one being when a developer obtain some information regarding a software artifact, either through code comments, wikis or other means. 
+We are however not going to distinguish between these two communication types in our content analysis as we believe the two differentiations is covered by the context of the action as described in \todo[inline]{Cite to Context section}. For our content analysis we are simply going to count every instance of communication for every action that is related to communication between team-members regardless if it is through text, speech or other means of communication.
 \paragraph{Leadership}
-\paragraph{Incompetence}
+As is the case with communication, leadership is also widely used concept, that is rarely specified. Again we turn to Merriam-Webster \cite{MerriamWebster2015} for a definition: 
+\begin{quote}
+The power or ability to lead other people.
+\end{quote}
+Agile development teams is often self-organized as it is one of the principles in the agile manifesto \cite{AgileManifesto2015}. This can result in no clear leadership. For our content analysis we are going to consider decisions and guidelines set by the group itself as leadership activities. We categorize actions as leadership if they somehow suggests changes to leadership or if the actions is a result of some leadership related issue. 
+\paragraph{Competence}
+We define competence as the ability to perform a certain task in a adequate quality. Each member within an agile team has their own set of knowledge that they use to solve different tasks. If any issues arises and the group is lacking the knowledge to counter it we categorize the action created to resolve it as an competence action. An example could be issue of lacking the knowledge resolving a database error and the action is to send one developer at a database course. This action would then be categorized as an competence action.
 \paragraph{External Relations}
+By the category external relations we mean if the team has any actions that is a result of issues arising from external factors or the actions that team is creating to inflict some external factors. Example of external relations can be customer relations, communication with server maintenance team or other development teams.  
 \paragraph{Planning}
+An action that is categorized as planning is when the action is suggesting changes to planning in future iterations or is a result of an issue occurring in a former iteration. Estimations, task-prioritization, scheduling and etc. all goes under the planning category. 
 \paragraph{Undefined}
-\subsection{Framework Limitations}
+For those actions that the origin is unclear or the goal is not related to any of the collaboration categories we categorize them as undefined.
+\subsection{Content Analysis Limitations}
 \subsubsection{Missing Contexts}
 \subsubsection{Borderline Actions}
 \subsection{Processing Steps}
