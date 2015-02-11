@@ -7,3 +7,5 @@
 *.toc
 *.tdo
 *.synctex.gz
+*.lof
+*.lot
