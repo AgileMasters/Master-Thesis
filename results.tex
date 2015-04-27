@@ -6,7 +6,7 @@
 From the retrospective reports we obtained several interesting results. We will go through each of them below starting with some key numbers and then move on to the results of the content analysis. Then we identify some trends observed while performing the content analysis. 
 
 \subsection{Key Numbers}
-In this section we will present some key numbers of the retrospective results and this numbers can also be seen in \autoref{table:key-numbers}.The retrospective reports spanned over a period of five years from August 2009 to November 2014. This is equal to 278 weeks and we are going to refer to week numbers from the first retrospective for the remainder of this report. 
+In this section we will present some key numbers of the retrospective results and these numbers can also be seen in \autoref{table:key-numbers}.The retrospective reports spanned over a period of five years from August 2009 to November 2014. This amounts to 278 weeks and we are going to refer to week numbers from the first retrospective for the remainder of this report. 
 \begin{table}[!h]
 	\begin{center}
 	\caption{Some key numbers from the retrospectives}
@@ -28,15 +28,17 @@ In this section we will present some key numbers of the retrospective results an
 \end{table}
 During the 278 weeks 77 retrospectives were held and and within these 343 actions was created, where 65 of these actions were still unresolved. This yields an average of 4.45 actions per retrospective and 0.84 unresolved per retrospective. This is equal to 1.23 actions per week, where one have 0.23 unresolved actions per week. 
 
-In \autoref{figure:key-numbers} we can see the development of numbers of actions. We can see that the team has had a pretty steady amount of actions with no abnormal spikes or changes. The total amount of actions follows the average expected actions quite close and reveals the steady number of actions. The amount of active (or unresolved) actions also has a steady amount of total actions increasing at about the same rate as the total number of actions. 
+In \autoref{figure:key-numbers} we can see the development of numbers of actions. We can see that the team has had a pretty steady amount of actions with no abnormal spikes or changes until week 180. The total amount of actions follows the average expected actions quite close and reveals the steady number of actions.
+At week 180 a slight increase in the number of actions begins. This lasts until until 237 when the amount of actions per retrospective starts to even out. 
+The amount of active (or unresolved) actions has a steady amount of total actions increasing at about the same rate as the total number of actions. 
 
 
-\begin{sidewaysfigure}[!h]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=\textwidth, keepaspectratio]{figures/key-numbers.png}
 	\caption{A visual representation of some of the key numbers.}
 	\label{figure:key-numbers}
-\end{sidewaysfigure}
+\end{figure}
 \clearpage	
 
 \subsection{Analysis Results}
@@ -362,5 +364,41 @@ The final trend we observed during our content analysis was the communication be
 	\label{figure:dev-test-com}
 \end{figure}
 
+\clearpage
+
+\section{Feedback Session}
+After performing our content analysis, we visited the team to present our analysis results as well as receive feedback from the team. In this section and its following sub-sections we'll present the results from this session. We will start with going through the feedback on the key numbers, before we continue on the categories and trends and finally take anything else that came up during the session. 
+
+\subsection{Feedback: Key-Numbers}
+When presenting the key-numbers the team mostly found our results agreeable with their own thoughts. The only surprise to the team was the amount of active actions. Their surprise came as they believed the number of active actions to be higher. The reason for this belief was that they thought they were worse at closing actions as the list of active actions seemed so long, but compared to the amount of total actions it seemed more reasonable. However it was pointed out that existing actions hinder new actions for the same problem to be created and thus the amount of active actions might not be accurate with how the team works with the problems as a actions might not be documented, but worked on never the less. 
+
+When raised the question why the decrease of actions after week 237 the team gave their thoughts. During the period the decrease in number of actions they had acquired a new foreign developer within the team. Unfortunately the new developer had not lived up to the task creating what the team called an ``Elephant in the room''. The situation absorbed the other problems within the team as no one would be rude and tell that the new developer that he were the problem. As one of the team members described during the feedback session: 
+\begin{quote}
+``We actually discussed it once at the coffee after lunch, the retrospectives at the moment were just a waste of time''. 
+\end{quote}
+When asked what was the reason for the developer not living up to his expectations the team told us that face-saving and cultural differences made it difficult to communicate properly and that tasks that were assigned to him weren't satisfiable. 
+
+The developer quit the team after a period of 34 weeks in week 263. This still means that the low action period of 15 weeks between and week 263 and 278 remained unexplained. When inquired about this the team had several possible reasons. One were that there were already to many active actions on the plate resulting in fewer getting made. Another were that the communication within the team improved after team had lost the developer creating the problems. A final possible reason was that the secretary for the retrospectives changed a lot within that period of time. 
+
+After discussing the decrease in actions period the team mentioned that it would be interesting to see if there were any correlations between retrospective actions and team changes other than the one already explained. We have in the time after the visit to the team created such charts as can be seen in \autoref{figure:team-changes} and \autoref{figure:secretary-changes}. 
+
+In \autoref{figure:team-changes} we can see that the period of low actions starting at week 237 and lasting out week 278. In that period the foreign developer, T7, joins and leaves the team. In the same period the SCRUM master of the team takes a leave of absence for a period of 20 weeks which also might have influenced the period. 
+
+For the secretary changes, shown in \autoref{figure:secretary-changes} we can see that the changes in who writes the reports doesn't seem to influence the number of actions that comes out of the actions. The only exception to this could be the period after week 263 where there are a lot of changes, as the team described. However we believe this to be unlikely as between week 270 and 275 the secretary stays the same and the amount of actions follows the trend of low number of actions and as changes earlier in the timespan haven't revealed any effects. 
+
+\begin{sidewaysfigure}[!h]
+	\centering
+	\includegraphics[width=\textwidth, keepaspectratio]{figures/team-changes.png}
+	\caption{Team changes and the amount of actions for the retrospectives across the 278 Weeks.}
+	\label{figure:team-changes}
+\end{sidewaysfigure}
+
+\begin{sidewaysfigure}[!h]
+	\centering
+	\includegraphics[width=\textwidth, keepaspectratio]{figures/secretary-changes.png}
+	\caption{Secretary changes and the amount of actions for the retrospectives across the 278 Weeks.}
+	\label{figure:secretary-changes}
+\end{sidewaysfigure}
 \afterpage{\clearpage}
 
+\subsection{Feedback: Categories and Trends}
