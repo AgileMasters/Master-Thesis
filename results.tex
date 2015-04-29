@@ -1,12 +1,12 @@
 \chapter{Results}
-\todo{Some intro to the chapter}
+\todo[inline]{Some intro to the chapter}
 
 \clearpage
 \section{Content Analysis Results}
 From the retrospective reports we obtained several interesting results. We will go through each of them below starting with some key numbers and then move on to the results of the content analysis. Then we identify some trends observed while performing the content analysis. 
 
 \subsection{Key Numbers}
-In this section we will present some key numbers of the retrospective results and this numbers can also be seen in \autoref{table:key-numbers}.The retrospective reports spanned over a period of five years from August 2009 to November 2014. This is equal to 278 weeks and we are going to refer to week numbers from the first retrospective for the remainder of this report. 
+In this section we will present some key numbers of the retrospective results and these numbers can also be seen in \autoref{table:key-numbers}.The retrospective reports spanned over a period of five years from August 2009 to November 2014. This amounts to 278 weeks and we are going to refer to week numbers from the first retrospective for the remainder of this report. 
 \begin{table}[!h]
 	\begin{center}
 	\caption{Some key numbers from the retrospectives}
@@ -27,15 +27,18 @@ In this section we will present some key numbers of the retrospective results an
 \end{center}
 \end{table}
 During the 278 weeks 77 retrospectives were held and and within these 343 actions was created, where 65 of these actions were still unresolved. This yields an average of 4.45 actions per retrospective and 0.84 unresolved per retrospective. This is equal to 1.23 actions per week, where one have 0.23 unresolved actions per week. 
-In \autoref{figure:key-numbers} we can see the development of numbers of actions. We can see that the team has had a pretty steady amount of actions with no abnormal spikes or changes. The total amount of actions follows the average expected actions quite close and reveals the steady number of actions. The amount of active (or unresolved) actions also has a steady amount of total actions increasing at about the same rate as the total number of actions. 
+
+In \autoref{figure:key-numbers} we can see the development of numbers of actions. We can see that the team has had a pretty steady amount of actions with no abnormal spikes or changes until week 180. The total amount of actions follows the average expected actions quite close and reveals the steady number of actions.
+At week 180 a slight increase in the number of actions begins. This lasts until until 237 when the amount of actions per retrospective starts to even out. 
+The amount of active (or unresolved) actions has a steady amount of total actions increasing at about the same rate as the total number of actions. 
 
 
-\begin{sidewaysfigure}[!h]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=\textwidth, keepaspectratio]{figures/key-numbers.png}
 	\caption{A visual representation of some of the key numbers.}
 	\label{figure:key-numbers}
-\end{sidewaysfigure}
+\end{figure}
 \clearpage	
 
 \subsection{Analysis Results}
@@ -327,7 +330,7 @@ The active actions, \autoref{figure:management-pa}, shows that the three categor
 \afterpage{\clearpage}
 
 \subsection{Trends}
-While conducting our content analysis of all the retrospective actions we uncovered some trends. By trend we mean actions that are related to the same issue/theme. We identified three trends being; Bugfix, Scenario Template and Developer-Tester Communication. We'll go through each of these in the following sub-sections.
+While conducting our content analysis of all the retrospective actions we uncovered some trends. By trend we mean actions that are related to the same issue/theme. We identified three trends being; Bugfix, Scenario Template and Developer-Tester Communication. We'll go through each of these in the following sub-sections. \todo{Write about comparing to active actions}
 
 \subsubsection{Bugfix}
 The first trend we recognized performing our content analysis was bugfixing. Developing computer systems is sure to create bugs and fixing them then becomes a natural part of developing software. In total we found 20 actions that was related to bugfixing. Of these two were purely technical actions, five were technical and process related and the remaining 13 action were purely process related. Of the 20 actions nine were related to communication between team members. In \autoref{figure:bugfix} one can see that the total amount of bugfixing actions has increased steadily throughout the timespan. 
@@ -361,5 +364,64 @@ The final trend we observed during our content analysis was the communication be
 	\label{figure:dev-test-com}
 \end{figure}
 
+\clearpage
+
+\section{Feedback Session}
+After performing our content analysis, we visited the team to present our analysis results as well as receive feedback from the team. In this section and its following sub-sections we'll present the results from this session. We will start with going through the feedback on the key numbers, before we continue on the categories and trends and finally take anything else that came up during the session. 
+
+\subsection{Feedback: Key-Numbers}
+When presenting the key-numbers the team mostly found our results agreeable with their own thoughts. The only surprise to the team was the amount of active actions. Their surprise came as they believed the number of active actions to be higher. The reason for this belief was that they thought they were worse at closing actions as the list of active actions seemed so long, but compared to the amount of total actions it seemed more reasonable. However it was pointed out that existing actions hinder new actions for the same problem to be created and thus the amount of active actions might not be accurate with how the team works with the problems as a actions might not be documented, but worked on never the less. 
+
+When raised the question why the decrease of actions after week 237 the team gave their thoughts. During the period the decrease in number of actions they had acquired a new foreign developer within the team. Unfortunately the new developer had not lived up to the task creating what the team called an ``Elephant in the room''. The situation absorbed the other problems within the team as no one would be rude and tell that the new developer that he were the problem. As one of the team members described during the feedback session: 
+\begin{quote}
+``We actually discussed it once at the coffee after lunch, the retrospectives at the moment were just a waste of time''. 
+\end{quote}
+When asked what was the reason for the developer not living up to his expectations the team told us that face-saving and cultural differences made it difficult to communicate properly and that tasks that were assigned to him weren't satisfiable. 
+
+The developer quit the team after a period of 34 weeks in week 263. This still means that the low action period of 15 weeks between and week 263 and 278 remained unexplained. When inquired about this the team had several possible reasons. One were that there were already to many active actions on the plate resulting in fewer getting made. Another were that the communication within the team improved after team had lost the developer creating the problems. A final possible reason was that the secretary for the retrospectives changed a lot within that period of time. 
+
+After discussing the decrease in actions period the team mentioned that it would be interesting to see if there were any correlations between retrospective actions and team changes other than the one already explained. We have in the time after the visit to the team created such charts as can be seen in \autoref{figure:team-changes} and \autoref{figure:secretary-changes}. 
+
+In \autoref{figure:team-changes} we can see that the period of low actions starting at week 237 and lasting out week 278. In that period the foreign developer, T7, joins and leaves the team. In the same period the SCRUM master of the team takes a leave of absence for a period of 20 weeks which also might have influenced the period. 
+
+For the secretary changes, shown in \autoref{figure:secretary-changes} we can see that the changes in who writes the reports doesn't seem to influence the number of actions that comes out of the actions. The only exception to this could be the period after week 263 where there are a lot of changes, as the team described. However we believe this to be unlikely as between week 270 and 275 the secretary stays the same and the amount of actions follows the trend of low number of actions and as changes earlier in the timespan haven't revealed any effects. 
+
+\begin{sidewaysfigure}[!h]
+	\centering
+	\includegraphics[width=\textwidth, keepaspectratio]{figures/team-changes.png}
+	\caption{Team changes and the amount of actions for the retrospectives across the 278 Weeks.}
+	\label{figure:team-changes}
+\end{sidewaysfigure}
+
+\begin{sidewaysfigure}[!h]
+	\centering
+	\includegraphics[width=\textwidth, keepaspectratio]{figures/secretary-changes.png}
+	\caption{Secretary changes and the amount of actions for the retrospectives across the 278 Weeks.}
+	\label{figure:secretary-changes}
+\end{sidewaysfigure}
 \afterpage{\clearpage}
 
+\subsection{Feedback: Categories and Trends}
+In this section we will present the thoughts of the team as well as their reactions on the results of the content analysis. We will start with the nature of the actions and then continue on context, decision making, organizational learning and development phase and finally we will go through the collaboration categories and trends. 
+
+\subsubsection{Nature}
+The results from the nature context did not surprise the team at all. We asked if they would like the guess what the ratio between positive negative would be and they said one-to-nine, which is quite close. Our results revealed five percent undefined and five percent positive with the remaining 90 percent negative. The team described themselves as problem-oriented and reasoned that this is the cause for the high amount of negative actions. They also said that they do during the retrospectives talk about good things that has happened, but as they are problem oriented it rarely gets documented. 
+
+\subsubsection{Context}
+Our results from the content analysis revealed that 58 percent came from a process context, while 40 percent came from a technical context. When this was presented to the team they thought it would be more technical than process actions. The reason for this wasn't elaborated during the session. It was however elaborated on the results of the active actions which the analysis revealed had a little more technical actions than process ones. The team said this was not so surprising as some of the technical actions could require a lot of time to complete. 
+
+\subsubsection{Decision Making}
+The team thought that it was a good sign that the team were able to do strategic decision making. When we presented the results for the decision making analysis, the team was pleased to see that they had all of the three categories represented. They were especially pleased to see that the there was a substantial portion of strategic actions. We asked what could be the reason for this and the team responded that they felt autonomous. As they described the company allowed the different development teams to have a fairly large independence allowing room to do strategic choices within the team. 
+
+\subsubsection{Organizational learning}
+When we presented the team to our results in terms of organizational learning the assumptions they had was as expected. They use the term of direct causes as single-loop and root causes as double-loop, but we will continue using the terms of single-loop and double-loop. They expected that single-loop would have the most occurrences, even though they maintained a double-loop focus during the retrospectives. This expectation is reflects our results quite well as 66 percent were single-loop and 25 percent double-loop. The reason they expected it to be more single-loop rather than double-loop was that it was easier to do single-loop and as one team member said: ``...sometimes things just need to be fixed''. 
+
+\subsubsection{Development Phase}
+The results from the content analysis were quite different from the team expectation in the context of which development phase the actions were related. The team expected that build and documentation would be the two biggest actions. The content analysis revealed that planning was the biggest followed by testing, development and documentation. The team thought this made sense as most of the planning is directed towards process improvement and they do focus on process during the retrospective. The team speculated if the releases might have a correlations with planning actions coming right after. \todo{Correlation release planning and release actions}. It was also again mentioned that actions might not be created even though they were discussed as actions already existed and that they had not been completed. 
+
+The team expected build to be the phase that occurred most. It was a surprise that it was not better represented within the actions as it felt that it was discussed often on retrospectives. One of the members said that the lack of actions specific for builds might be the reason while it was discussed during retrospectives and that they might focus on creating more actions related to the builds. 
+
+We asked the team if there were any categories they missed from the development phase analysis and two were mentioned. The first one was hotfix which the team often mentioned during the feedback session. The second one was flow as to how the development of the product progressed. For future similar analyses this should be taken into considerations. 
+
+\subsubsection{Collaboration}
+For the collaboration the team expected communication to be the category with the most actions. If you disregard the undefined actions which was the biggest in terms of collaboration the teams expectation was correct. We asked if they could explain what kind of communication that were discussed most during the retrospectives. They said that communication between the different stages of the development and more oral communication rather than written was the kinds of communications that were discussed the most. As for the other categories the team had no special feedback. 
