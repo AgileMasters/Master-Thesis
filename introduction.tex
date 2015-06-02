@@ -6,8 +6,108 @@
 \todo[inline]{Write Research Objective}
 \section{Agile Development}
 \todo[inline]{Theory on Agile Development}
+
 \section{Retrospective}
-\todo[inline]{Theory and some common techniques for retrospectives, refer to self preproject}
+Retrospectives, sometimes also called postmortems, is a activity that aim to improve learning within an organization. We will look at different retrospective definitions, some common techniques used and some of the earlier academic work in the following subsection. 
+
+\subsection{Retrospective Definition}
+There are several different definitions of retrospectives. Dingsøyr \cite{Dingsoyr2004} defines postmortem as: 
+
+\begin{quote}
+By a postmortem, we mean a collective learning activity which
+can be organised for projects either when they end a phase or
+are terminated. The main motivation is to reflect on what happened
+in the project in order to improve future practise—for the
+individuals that have participated in the project and for the organisation
+as a whole. The physical outcome of a meeting is a
+postmortem report.
+\end{quote}
+
+\todo[inline]{Add a retrospective definition of diana larsen mayhaps?, if not found use tiedeman.}
+
+We have created another definition on the retrospective as Dingsøyr's definition limit the retrospective to the end of a project or a phase of the project. 
+
+\begin{quote}
+	\textit{Retrospectives is a process that aims to facilitate shared learning within a team or an organization after a learning event, and such create a focus that aims to improve the current work practices.}
+\end{quote}
+
+We say learning event as different teams holds retrospectives after different kinds of events. We list the kinds of retrospectives known to us in \autoref{table:retrospective-types}. For this paper our main focus will be related to what we call iteration retrospectives, which is the practice commonly used in SCRUM and Kanban. 
+
+\begin{table}[h]
+	\begin{center}
+		\caption{Types of retrospectives}
+		\label{table:retrospective-types}
+		\begin{tabular}{l l}
+			\hline
+			Retrospective Type & Description \\
+			\hline
+			Iteration Retrospective & Held after project iteration \\
+			Project Retrospective & Held after a project ends \\
+			Feature Retrospective & Held after the release of a feature \\
+			Incidents Retrospective & Held after an incident \\
+			Back-on-track retrospective & Held when work practices is failing \\
+			\hline
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\subsection{Retrospectives Techniques}
+There are a lot of ways to perform retrospective. Around the table discussion, story-telling, weather-forecast and many more are examples of ways to conduct retrospectives. We will briefly describe two commonly used technique called KJ-session and timeline. Other techniques can be found by reading Derby and Larsen's book\cite{Larsen2006}: \textit{``Agile Retrospectives: Making Good Teams Great!''}, accessing the web page Retromat.org\cite{retromat2015} or reading our own literature review on the agile retrospective\cite{Dolvik2014}. 
+
+\subsubsection{KJ-session}
+KJ-sessions are a commonly used brainstorming technique where each participant write issues on post-it notes after the participants are done the post-it notes are grouped and discussed in the group. Dingsøyr, Moe and Nytrø\cite{Moe2001} provides an example of they conducted a KJ-session and the end-result of a KJ-session can be seen in \autoref{figure:kj-session}: 
+
+\begin{quote}
+We used a technique named after a Japanese ethnologist, Jiro
+Kawakita - called the KJ-method. For each of these sessions,
+we give the participants a set of post-it notes, and ask them to
+write one issue on each. We usually hand out between three and
+five notes per person, depending on the number of participants.
+After some minutes, we ask one of them to attach one note to a
+whiteboard and say why this issue was important. Then the next
+person would present a note and so on until all the notes are on
+the whiteboard. The notes are then grouped, and each group is
+given a new name. 
+\end{quote}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=\textwidth, keepaspectratio]{figures/KJ-session.png}
+	\caption{KJ-session end result, provided by Dingsøyr\cite{Dingsoyr2004}}
+	\label{figure:kj-session}
+\end{figure}
+
+\subsubsection{Timeline}
+Timeline is an activity that lets the participants create a timeline over the last learning event and reflect on the event during the creation. Derby and Larsen\cite{Larsen2006} suggests that the participants should be divided into multiple groups. Each member in the group should then be handed markers and post-it notes and then write their own issues from the learning event down. Derby and Larsen suggests color-coding the post-it notes relating them to feelings, events, functions or themes. When all the participants are done writing they should together create a timeline with the post-it notes. After the timeline is done the group should analyze the timeline, looking for interesting patterns and opportunities for future improvements. An example timeline is shown in \autoref{figure:timeline}.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=\textwidth, keepaspectratio]{figures/Timeline-Example.png}
+	\caption{Timeline illustration}
+	\label{figure:timeline}
+\end{figure}
+
+There also exists a variation of timeline called; Evidence-Based Timelines, which is described by Bjarnason and Regnell\cite{Bjarnason2012}. The difference from normal timeline retropsective is that the data is collected through available systems before the retrospective. The idea is to counter bias from the participants where memory lacks and thus rather use data collected from available system during the time-period in question. A graphic example is presented by Bjarnason and Regnell and shown in \autoref{figure:e-b-timeline}. 
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=\textwidth, keepaspectratio]{figures/eb-timeline.png}
+	\caption{Evidence-based timeline illustration, presented by Bjarnason and Regnell\cite{Bjarnason2012}}
+	\label{figure:e-b-timeline}
+\end{figure}
+
+\subsection{Retrospectives: Earlier Academic Work}
+There have been several articles, conference papers, and experience reports on retrospectives or mentioning them as part of agile development.
+
+Dingsøyr, Moe and Nytrø compared light-weight postmortem review against experience reports and found that the two provides different kind of experience. light-weight postmortem focuses on implmentation, administration, developers and maintence, while experience reports yield experience related to contract issues, design and technology. 
+
+On the subject of retrospectives techniques several publications has been done. Stålhane, Dingsøyr, Hanssen and Moe\cite{Hanssen2003} compared two methods of semi-structured interviews and KJ-session and found that both may be applied to harvest knowledge. Bjarnason and Regnell\cite{Bjarnason2012} proposed the evidence-based timelines method as a way of conducting retrospectives. Bjørnson, Wang and Arisholm\cite{bjornson2009} compared the effectiveness of root-cause analysis against that of fishbone diagrams and found that root-cause analysis was more effective as the fishbone diagram limits the way issue were related to each other. Dingsøyr\cite{Dingsoyr2004} have written an article on the subject highlighting the purpose of the retrospective as well as discussing three possible approaches. Dølvik and Stålesen\cite{Dolvik2014} did a literature review on agile retrospectives and found that different techniques would fit different goals, and they found a lack of research considering follow-up on the issues identified during the retrospective. There also several experience reports on the subject, two of them Maham\cite{Maham2008}, Kinoshita\cite{Kinoshite2008}, which describes how to plan and facilitate retrospectives as well as describing different techniques. Finally Derby and Larsen\cite{Larsen2006} has as previously mentioned a book on the subject. 
+
+Other work returns some different findings. Drury, Conboy and Power\cite{Drury2012} in a study on obstacles to decision making in agile development team that SCRUM-master prioritizes other tasks than follow-up on actions from retrospectives. They proposed that discussion on decision-making should be a part of the retrospective. And they found that some regarded the retrospective as a waste of time while others found it useful. Comparing to this Stålhane, Dingsøyr, Hanssen and Moe\cite{Hanssen2003} found that the participants of their case-study regarded the postmortem as useful. 
+
+There are several publications mentioning retrospectives or directly address them, however most of these studies are related to how one should conduct retrospectives or the purpose of it. However we have not seen any studies addressing the value of the retrospective, which is in part why we have focused to conduct this case study. 
+\clearpage
+
 \section{Organizational Learning}
 Organizational learning is in simple terms how an organization is able to acquire, store and utilize knowledge existing within an organization. In a more academic setting we can use Argyris and Schön definition \cite{Argyris1996} for organizational learning: 
 
@@ -19,7 +119,7 @@ Organizational learning can be applied to groups of people over different sizes.
 
 Different types of frameworks exist for organizational learning. Levitt and March uses a framework that see learning in organizations as encoding inferences from history into routines that guide behavior \cite{Levitt1988}. The retrospective is a process of shared learning for an agile development team learning from the last iteration of development. Investigating learning using this framework won't yield much as the retrospective already is seen as a collective learning activity \cite{Dingsoyr2004}. 
 
-Argyris and Schön \cite{Argyris1996} uses two different models to determine how an organization learns through individuals, Model I and Model II. As agile teams often are limited to a close group of individuals we will apply Argyris and Schön's models. To understand these models we first need to investigate two types of learning: Single-loop learning and double-loop learning. Further in this section we will explain these types of learning as well as Model I and Model II. We will also look at Triple-loop learning as it is the concept of learning about learning. 
+Argyris and Schön \cite{Argyris1996} uses two different models to determine how an organization learns through individuals, Model I and Model II. As agile teams often are limited to a close group of individuals we will apply Argyris and Schön's models. To understand these models we first need to investigate two types of learning: Single-loop learning and double-loop learning. Further in this section we will explain these types of learning as well as Model I and Model II. We have borrowed \autoref{table:model-I}, \autoref{table:model-II}, \autoref{table:social-virtues} from Argyris and Schön's ``Organizational learning II: Theory, Method and Practice''\cite{Argyris1996} and they provide a quick overview of the two models as well as the social virtues that differs between them. We will also look at Triple-loop learning as it is the concept of learning about learning. 
 
 \subsection{Single-loop}
 Single-loop learning is a type of learning defined by Argyris and Schön. It consist of a single-feedback loop that finds an error and a way to fix this problem. Argyris and Schön \cite{Argyris1996} defines single-loop as: 
@@ -64,16 +164,135 @@ For this research we use the term double-loop learning when the influences for t
 % subsection triple_loop (end)
 \subsection{Model I} % (fold)
 \label{sub:model_i}
+Argyris and Schön \cite{Argyris1996} describes a learning system called Organizational learning I, which theory-in-use is described as Model I. As organizational learning I is employed learning system that can be defined by different actions and implementations we will instead go into the theory-in-use, Model I, as these systems employ them.
+
+Argyris and Schön \cite{Argyris1996} describes Model I through its governing variables. We will go through each of them along with the actions strategies, consequences for behavioral world and consequences for learning, effectiveness that follows of the different governing variables that actors try to satisfy. 
+
+The first governing value described is defining goals and try to achieve them. This leads to the action strategies of designing and manage the environment unilaterally. The behavioral consequences are that the actor gets seen as defensive, inconsistent, incongruent, controlling, fearful of being vulnerable, withholding feelings, overly concerned about self and others, or under-concerned about others. For the effectiveness and learning the consequences are that the actor are self-sealing and the longterm effectiveness is decreased. 
+
+Maximize winning and minimize losing is the second governing variable that the actors in an organization try to satisfy. The actions strategies for this governing value is that the actor takes ownership and control of a task. This results in a defensive interpersonal and group relationship where the actor wants the rest of the group to see things his way and little help could be a result of this. For terms of learning this will provide single-loop learning as the output of the task his more important than the task itself. 
+
+The third governing value for the actors in this kind of learning model is minimizing generating or expressing negative feelings. The action strategy that follows is that the actors wishes to protect themselves using defensive actions such as blaming, stereotyping and suppressing feelings. The consequences for the behavioral world is defensive norms within the organizations. Rivalry, lack of external commitment and mistrust are examples of such norms. For the learning consequences of this value little theories will be tested publicly prohibiting double-loop learning in the organization. However there will still be much testing of theories with the individuals however this knowledge will not reach the organization. 
+
+Being rational is the fourth and final governing variable for Argyris and Schön's Model I theory-in-use for the learning organization. Being rational provides the action strategy of protecting other from being hurt resulting in actions like withholding information, creating censoring rules that can censor information and behavior. This returns the same consequences for the behavioral world, learning and effectiveness as described above. 
+
+Through the governing values of Model I the actors within the organization prohibits double-loop learning. The organization creates a win or loose situation between the actors leading to withholding of information, mistrust between the actors and little testing of current norms of values. This again provides competition instead of collaboration and thus have a negative impact on the learning and effectiveness of the organization. Model I is further described by Argyris and Schön as the different elements of the model interact in complex ways. This can be read about in ``Organizational learning II: Theory, Method and Practice'' \cite{Argyris1996}.
+
+\begin{sidewaystable}[!h]
+	\begin{center}
+	\caption{Theory-in-use of Organizational learning I borrowed from ``Organizational learning II: Theory, Met hod and Practice'' by Argyris and Schön \cite{Argyris1996}}
+	\label{table:model-I}
+	\makebox[\textwidth]{%
+		\begin{tabular}{ p{0.25\textwidth} p{0.25\textwidth} p{0.25\textwidth} p{0.25\textwidth} }
+		\multicolumn{4}{l}{\textit{Model I Theory-in-Use}} \\
+		\hline
+		\textbf{Governing Variables} & \textbf{Action Strategies} & \textbf{Consequences for Behavioral World} & Consequences for Learning, Effectiveness \\
+		Define goals and try to achieve them. & Design and manage the environment unilaterally (be persuasive, appeal to larger goals, etc.) & Actor seen as defensive, inconsistent, incongruent, controlling, fearful of being vulnerable, withholding of feelings, overly concerned about self and others, or under-concerned about others. & Self-sealing. 
+
+		Decreased Long-term effectiveness. \\
+		Maximize winning and minimize loosing. & Own and control the task (claim ownership of the task, be guardian of the definition and execution of the task). & Defensive interpersonal and group relationship (depending on actor, little help to others). & Single-loop learning. \\
+		Minimize generating or expressing negative feelings. & Unilaterally protect yourself (speak in inferred categories accompanied by little or no directly observable data, be blind to impact on others and to incongruity; use defensive actions such as blaming, stereotyping, suppressing feelings, intellectualizing). & Defensive norms (mistrust, lack of risk taking, conformity, external commitment, emphasis on diplomacy, power-centered competition and rivalry). & Little testing of theories publicly. 
+
+		Much testing of theories privately. \\
+		Be rational. & Unilaterally protect others from being hurt (withhold information, create rules to censor information and behavior, hold private meetings). & & \\
+		\hline
+		\end{tabular}
+	}
+	\end{center}
+\end{sidewaystable}
 
 % subsection model_i (end)
 \subsection{Model II} % (fold)
 \label{sub:organizational_learning_ii}
+The second model described by Argyris and Schön is the theory-in-use for organizational learning II systems called Model II. While Model I is creating a win-loose relationship between the actors resulting in actors trying to control the environment, Model II instead invites the actors to confronts each others views and emotions. This is creating an environment for double-loop learning where the actors strive to get the most complete understanding of their environment and adapt this. 
+
+There are three governing values for Model II according to Argyris and Schön: Valid information, Free and informed choice and Internal commitment to the choice and constant monitoring of its implementation. 
+
+The three governing values gives primarily four behavioral strategies. ``Designing situations where participants can be origins of action and experience high personal causation'' is one the strategies according Argyris and Schön. Another of these strategies is that the group of actors jointly control the tasks. This provides an environment where face-saving for the individual should not be needed and thus facilitates open and clear communication between the different actors. This again is connected to the third action strategy that is ``Protection of self is a joint enterprise and oriented towards growth''. The three governing values also provides an environment of bilateral protection towards others. 
+
+There are several consequences for the behavioral world following the governing values and behavioral strategies for Model II. The first one is that actors within the organization acts less defensively than in Model I system and is experienced as minimally defensive. The second consequence is the same as the first one except that it relates to the relationship between the different individuals in the organization. The group dynamics and interpersonal relationships will be minimally defensive. As an organization approaches the practices that supports the three governing values learning-oriented norms will start appearing the in organization as a consequence. The final consequence Argyris and Schön describes is high freedom of choice, internal commitment and risk taking within the organization. 
+
+As for the consequences on learning Model II will support double-loop learning. Disconfirmable processes and frequent public testing of theories will both support double-loop learning. As the defensive stance of the actors and relationships are minimized Model II practices will advocate and allow the organization to test their current theories on how their organization is performing, allowing for double-loop learning. 
+
+As described by Argyris and Schön the Model II will in the long term increase effectiveness within an organization. Through facilitating collaboration rather than competition, allowing testing of the currently perceived world and norms and allowing experimentation the Model II allows double-loop learning. Being able to adapt the organization through double-loop learning will in the long term increase the effectiveness. 
+
+Finally the Modell II theory-in-use is not a goal one can achieve as described by Argyris and Schön. Instead it is a focus one can work against, as the nature of the Modell II and double-loop learning is always to challenge the current world for better one can never achieve the ideal world as this world will always be able to change and improve. 
+
+\begin{sidewaystable}[!h]
+	\begin{center}
+	\caption{Theory-in-use of Organizational learning II borrowed from ``Organizational learning II: Theory, Method and Practice'' by Argyris and Schön \cite{Argyris1996}}
+	\label{table:model-II}
+	\makebox[\textwidth]{%
+		\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+		\multicolumn{5}{l}{\textit{Model II Theory-In-Use}}\\
+		\hline
+		\textbf{Governing Variables for Action} & \textbf{Action Strategies} & \textbf{Consequences of Behavioral World} & \textbf{Consequences on Learning} & \textbf{Consequences on effectiveness} \\
+		\hline
+		\begin{itemize}[leftmargin=*]
+			\item[] Valid information
+			\item[] Free and informed choice 
+			\item[] Internal commitment to the choice and constant monitoring of its implementation
+		\end{itemize}
+		&
+		\begin{itemize}[leftmargin=*]
+			\item[] Design situations where participants can be origins of action and experience high personal causation
+			\item[] Task is jointly controlled
+			\item[] Protection of self is a joint enterprise and oriented toward growth
+			\item[] Bilateral protection of others
+		\end{itemize}
+		&
+		\begin{itemize}[leftmargin=*]
+			\item[] Actor experienced as minimally defensive
+			\item[] Minimally defensive interpersonal relations and group dynamics
+			\item[] Learning-oriented norms
+			\item[] High freedom of choice, internal commitment, and risk taking 
+		\end{itemize}
+		& 
+		\begin{itemize}[leftmargin=*]
+			\item[] Disconfirmable processes
+			\item[] Double-loop learning
+			\item[] Frequent public testing of theories
+		\end{itemize}
+		& Increased long-term effectiveness \\
+		\hline
+		\end{tabular}
+	}
+	\end{center}
+\end{sidewaystable}
+
+\begin{table}[!h]
+	\begin{center}
+	\caption{Social Virtues of Model I and Model II borrowed from ``Organizational learning II: Theory, Method and Practice'' by Argyris and Schön \cite{Argyris1996}}
+	\label{table:social-virtues}
+	\makebox[\textwidth]{%
+		\begin{tabular}{ p{0.5\textwidth}  p{0.5\textwidth} }
+		\textit{Model I Social Virtues} & \textit{Model II Social Virtues} \\
+		\hline
+		\textbf{Help and Support} & \\
+		Give approval and praise to others. Tell others what you believe will make them feel good about themselves. Reduce their feelings of hurt by telling them how much you care and, if possible, agree with them that the others acted improperly. & Increase the other's capacity to confront their own ideas, to create a window into their own mind, and to face the unsurfaced assumptions, biases, and fears that have informed their actions toward other people. \\ 
+		\\
+		\textbf{Respect for Others} & \\
+		Defer to other people; do not confront their reasoning or actions. & Attribute to other people of high capacity for self-reflection and self-examination without becoming so upset that they lose their effectiveness and their sens of self-responsibility and choice. Keep testing this attribution. \\
+		\\
+		\textbf{Strength} & \\
+		Advocate your position in order to win. Hold your own position in the face of advocacy. Feeling vulnerable is a sign of weakness. & Advocate your position and combine it with inquiry and self-reflection. Feeling vulnerable while encouraging inquiry is a sign of strength. \\
+		\\
+		\textbf{Honesty} & \\
+		Tell other people no lies, or tell others all you think and feel. & Encourage yourself and other people to make public tests of their ability to say what they know yet fear to say. Minimize what would otherwise be subject to distortion and cover-up of the distortion. \\
+		\\
+		\textbf{Integrity} & \\
+		Stick to your principles, values, and beliefs. & Advocate your principles, values, and beliefs in a way that invites inquiry into them and encourages other people to do the same. \\
+		\hline
+		\end{tabular}
+	}
+	\end{center}
+\end{table}
 
 % subsection organizational_learning_ii (end)
 % subsection double_loop (end)
 \subsection{Triple-loop} % (fold)
-\label{sub:triple_loop}
-The term triple-loop learning has been used in different ways as highlighted by Tosey, Visser and Saunders \cite{Tosey2011}. Triple-loop learning can be referred to both triple-loop learning and deutoro-learning. For this work we are going to stick with triple-loop learning. Tosey, Visser and Saunders performed a critical review of the triple-loop learning concept and finds that three concepts have been widely used in academic literature. 
+\label{sub:triplloop}
+The term tripleloop learning has been used in different ways as highlighted by Tosey, Visser and Saunders \cite{Tosey2011}. Triple-loop learning can be referred to both triple-loop learning and deutoro-learning. For this work we are going to stick with triple-loop learning. Tosey, Visser and Saunders performed a critical review of the triple-loop learning concept and finds that three concepts have been widely used in academic literature. 
 
 The first concept they investigate is a form for learning above double-loop learning that addresses some learning in a level above the governing variable of double-loop learning. Tosey et. al. finds that this concept seem to be poorly defined, imprecise and unfounded in the way it is used. 
 
@@ -91,6 +310,8 @@ As an example of triple-loop learning we again turn to the bug example used earl
 	\caption{Triple-loop learning.}
 	\label{figure:triple-loop}
 \end{figure}
+
+\clearpage
 
 \section{Shared Mental Models}
 
@@ -116,7 +337,6 @@ Four different stages of building shared mental models are identified \cite{Pett
 	Executing & Shared understanding and  \\
 	\hline
 	
-	
 \end{tabular}
 \end{centering}
 \end{table}
@@ -124,7 +344,7 @@ Four different stages of building shared mental models are identified \cite{Pett
 	
 \subsection{Shared Mental Models and retrospectives}
 
-Petter et al\cite{Petter2013} describe multiple agile development practices, but do not focus a lot on the agile retrospective. In the appendix of the article they give the following link between retrospectives and shared mental models.
+Petter et. al. \cite{Petter2013} describe multiple agile development practices, but do not focus a lot on the agile retrospective. In the appendix of the article they give the following link between retrospectives and shared mental models.
 
 \begin{quote}
 Enhances the development of learning and understanding stages by facilitating the information sharing and integration. This practice also improves the teams’ executing capability in the next sprint
