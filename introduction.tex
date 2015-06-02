@@ -6,8 +6,108 @@
 \todo[inline]{Write Research Objective}
 \section{Agile Development}
 \todo[inline]{Theory on Agile Development}
+
 \section{Retrospective}
-\todo[inline]{Theory and some common techniques for retrospectives, refer to self preproject}
+Retrospectives, sometimes also called postmortems, is a activity that aim to improve learning within an organization. We will look at different retrospective definitions, some common techniques used and some of the earlier academic work in the following subsection. 
+
+\subsection{Retrospective Definition}
+There are several different definitions of retrospectives. Dingsøyr \cite{Dingsoyr2004} defines postmortem as: 
+
+\begin{quote}
+By a postmortem, we mean a collective learning activity which
+can be organised for projects either when they end a phase or
+are terminated. The main motivation is to reflect on what happened
+in the project in order to improve future practise—for the
+individuals that have participated in the project and for the organisation
+as a whole. The physical outcome of a meeting is a
+postmortem report.
+\end{quote}
+
+\todo[inline]{Add a retrospective definition of diana larsen mayhaps?, if not found use tiedeman.}
+
+We have created another definition on the retrospective as Dingsøyr's definition limit the retrospective to the end of a project or a phase of the project. 
+
+\begin{quote}
+	\textit{Retrospectives is a process that aims to facilitate shared learning within a team or an organization after a learning event, and such create a focus that aims to improve the current work practices.}
+\end{quote}
+
+We say learning event as different teams holds retrospectives after different kinds of events. We list the kinds of retrospectives known to us in \autoref{table:retrospective-types}. For this paper our main focus will be related to what we call iteration retrospectives, which is the practice commonly used in SCRUM and Kanban. 
+
+\begin{table}[h]
+	\begin{center}
+		\caption{Types of retrospectives}
+		\label{table:retrospective-types}
+		\begin{tabular}{l l}
+			\hline
+			Retrospective Type & Description \\
+			\hline
+			Iteration Retrospective & Held after project iteration \\
+			Project Retrospective & Held after a project ends \\
+			Feature Retrospective & Held after the release of a feature \\
+			Incidents Retrospective & Held after an incident \\
+			Back-on-track retrospective & Held when work practices is failing \\
+			\hline
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\subsection{Retrospectives Techniques}
+There are a lot of ways to perform retrospective. Around the table discussion, story-telling, weather-forecast and many more are examples of ways to conduct retrospectives. We will briefly describe two commonly used technique called KJ-session and timeline. Other techniques can be found by reading Derby and Larsen's book\cite{Larsen2006}: \textit{``Agile Retrospectives: Making Good Teams Great!''}, accessing the web page Retromat.org\cite{retromat2015} or reading our own literature review on the agile retrospective\cite{Dolvik2014}. 
+
+\subsubsection{KJ-session}
+KJ-sessions are a commonly used brainstorming technique where each participant write issues on post-it notes after the participants are done the post-it notes are grouped and discussed in the group. Dingsøyr, Moe and Nytrø\cite{Moe2001} provides an example of they conducted a KJ-session and the end-result of a KJ-session can be seen in \autoref{figure:kj-session}: 
+
+\begin{quote}
+We used a technique named after a Japanese ethnologist, Jiro
+Kawakita - called the KJ-method. For each of these sessions,
+we give the participants a set of post-it notes, and ask them to
+write one issue on each. We usually hand out between three and
+five notes per person, depending on the number of participants.
+After some minutes, we ask one of them to attach one note to a
+whiteboard and say why this issue was important. Then the next
+person would present a note and so on until all the notes are on
+the whiteboard. The notes are then grouped, and each group is
+given a new name. 
+\end{quote}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=\textwidth, keepaspectratio]{figures/KJ-session.png}
+	\caption{KJ-session end result, provided by Dingsøyr\cite{Dingsoyr2004}}
+	\label{figure:kj-session}
+\end{figure}
+
+\subsubsection{Timeline}
+Timeline is an activity that lets the participants create a timeline over the last learning event and reflect on the event during the creation. Derby and Larsen\cite{Larsen2006} suggests that the participants should be divided into multiple groups. Each member in the group should then be handed markers and post-it notes and then write their own issues from the learning event down. Derby and Larsen suggests color-coding the post-it notes relating them to feelings, events, functions or themes. When all the participants are done writing they should together create a timeline with the post-it notes. After the timeline is done the group should analyze the timeline, looking for interesting patterns and opportunities for future improvements. An example timeline is shown in \autoref{figure:timeline}.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=\textwidth, keepaspectratio]{figures/Timeline-Example.png}
+	\caption{Timeline illustration}
+	\label{figure:timeline}
+\end{figure}
+
+There also exists a variation of timeline called; Evidence-Based Timelines, which is described by Bjarnason and Regnell\cite{Bjarnason2012}. The difference from normal timeline retropsective is that the data is collected through available systems before the retrospective. The idea is to counter bias from the participants where memory lacks and thus rather use data collected from available system during the time-period in question. A graphic example is presented by Bjarnason and Regnell and shown in \autoref{figure:e-b-timeline}. 
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=\textwidth, keepaspectratio]{figures/eb-timeline.png}
+	\caption{Evidence-based timeline illustration, presented by Bjarnason and Regnell\cite{Bjarnason2012}}
+	\label{figure:e-b-timeline}
+\end{figure}
+
+\subsection{Retrospectives: Earlier Academic Work}
+There have been several articles, conference papers, and experience reports on retrospectives or mentioning them as part of agile development.
+
+Dingsøyr, Moe and Nytrø compared light-weight postmortem review against experience reports and found that the two provides different kind of experience. light-weight postmortem focuses on implmentation, administration, developers and maintence, while experience reports yield experience related to contract issues, design and technology. 
+
+On the subject of retrospectives techniques several publications has been done. Stålhane, Dingsøyr, Hanssen and Moe\cite{Hanssen2003} compared two methods of semi-structured interviews and KJ-session and found that both may be applied to harvest knowledge. Bjarnason and Regnell\cite{Bjarnason2012} proposed the evidence-based timelines method as a way of conducting retrospectives. Bjørnson, Wang and Arisholm\cite{bjornson2009} compared the effectiveness of root-cause analysis against that of fishbone diagrams and found that root-cause analysis was more effective as the fishbone diagram limits the way issue were related to each other. Dingsøyr\cite{Dingsoyr2004} have written an article on the subject highlighting the purpose of the retrospective as well as discussing three possible approaches. Dølvik and Stålesen\cite{Dolvik2014} did a literature review on agile retrospectives and found that different techniques would fit different goals, and they found a lack of research considering follow-up on the issues identified during the retrospective. There also several experience reports on the subject, two of them Maham\cite{Maham2008}, Kinoshita\cite{Kinoshite2008}, which describes how to plan and facilitate retrospectives as well as describing different techniques. Finally Derby and Larsen\cite{Larsen2006} has as previously mentioned a book on the subject. 
+
+Other work returns some different findings. Drury, Conboy and Power\cite{Drury2012} in a study on obstacles to decision making in agile development team that SCRUM-master prioritizes other tasks than follow-up on actions from retrospectives. They proposed that discussion on decision-making should be a part of the retrospective. And they found that some regarded the retrospective as a waste of time while others found it useful. Comparing to this Stålhane, Dingsøyr, Hanssen and Moe\cite{Hanssen2003} found that the participants of their case-study regarded the postmortem as useful. 
+
+There are several publications mentioning retrospectives or directly address them, however most of these studies are related to how one should conduct retrospectives or the purpose of it. However we have not seen any studies addressing the value of the retrospective, which is in part why we have focused to conduct this case study. 
+\clearpage
+
 \section{Organizational Learning}
 Organizational learning is in simple terms how an organization is able to acquire, store and utilize knowledge existing within an organization. In a more academic setting we can use Argyris and Schön definition \cite{Argyris1996} for organizational learning: 
 
