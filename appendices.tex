@@ -58,6 +58,118 @@
 \item Is there anything we haven’t covered, that you feel is important for us to know that is related to how your team work with retrospectives and the knowledge learned from it?
 \end{enumerate}
 
+\chapter{Pilot Analysis}
+\label{pilot-analysis}
+Settling on tabulations as our means of content analysis the different categories had to determined. We performed a pilot study.
+The pilot study was conducted in order to investigate the potential of analyzing a set of the 77 retrospective reports.  The pilot study was limited to 11 reports, where we picked every 7th retrospective chronologically. This distribution was chosen in order to get an even spread to represent the whole set, as well as keep the size manageable for the short preliminary study.
+
+The pilot study analysis lasted for one week, and included agreeing on the parameters and methods for the study, as well as a short workshop session where the results were presented in front of a group of fellow researchers. This workshop session consisted of a short presentation of the findings of the study. After the presentation we had a brainstorming session where we received feedback on potential improvements, as well as general impressions. 
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=\textwidth]{figures/Pilot_loop.PNG}
+	\caption{An example of a slide from the pilot study presentation }
+	\label{figure:Pilot Slide}
+\end{figure}
+
+\chapter{Content Analysis Categories}\label{appendix:categories}
+The results of our pilot analysis gave us an extended set of categories that we will now describe further. Mainly we found six main themes that we could derive categories from. The six themes were: Nature, Context, Decision Making, Organizational Learning, Development and Management. We will describe each of these themes and their set of categories further in the sections below.
+
+\section{Nature}
+The nature of the action is the first theme that the content analysis is going to inspect. We define the nature of the action as how the origins of the action began. Did they come from a problem that occurred during the iteration or is it a continuation of something that has been working well in the past. Through our analysis we will try to understand the origins of the actions and classify them either as positive, negative or undefined. We define our classifications below. 
+\paragraph{Positive} Positive actions is those actions where the origins of the action is in a positive context. If the action represents a current good working practice being continued, or something uncommon happened that gave positive results, it would be classified as positive.
+\paragraph{Negative} The negative actions are those actions that has its origins from a problem or abnormal issue resulting in negative results. If an action is a result of a problem or abnormal issue it is classified as an negative action. 
+\paragraph{Undefined} In the cases where it is unclear whether the origins of the action is positive or negative we classify the action as undefined. Such occurrences can be a result of missing context or actions that seem to have neither positive issues or negative issues as its origin. 
+
+\section{Context}\label{method:context}
+The context surrounding the action will be analyzed. The context off the action is based on the underlying issue that leads to the needed action. We divide the issues into three main categories, technical, process and undefined. 
+\paragraph{Technical}
+A technical issue can be a issue relating to technical competence, bugs or problems.
+\paragraph{Process}
+A process issue stems from a problem with a process, or potential for improvements in the existing processes. This can for example relate to communication between colleagues or work scheduling.
+\paragraph{Undefined}
+ An undefined issue might not have any clear origin, or might be too loosely described to be classified easily.
+
+\section{Decision Making}
+Rational decision making is how decision makers should think and should act based on coherence and rationality, according to M. Drury et al. ~\cite{Drury2012}. N.B. Moe et al. ~\cite{Moe2011} appends bounded rational decision-making as the means of understanding how decision making is made in non-routine activities. N.B. Moe et al. reasons that both are needed when analyzing decision-making in an agile context:
+\begin{quote}
+Software development involves both routine and non-routine activities. Hence, it makes sense to use both rational and bounded rational decision making theories when explaining decisions in software development processes. 
+\end{quote}
+Drury et al. distinguishes between two types of decisions being made in an organization, the strategic and the tactical. Moe et al. distinguishes between three types: Strategic, tactical and operational. We will use the three-type model. Each decision type will be described in the following paragraphs. 
+\paragraph{Strategic}
+A strategic decision is a wide ranging decision dealing with multiple or sizable issues, often causing major changes and have a long term impact.Moe et al. describes the strategic decisions as the following: 
+\begin{quote}
+Strategic decisions are related to organizational goals and objectives. The information concerning such decisions is usually incomplete and the decision-making process may extend over a considerable period of time.
+\end{quote}
+The actions that are categorized as strategical is the ones that proposes changes that have a long term impact or proposes changes that are related to the organizational goals. 
+\paragraph{Tactical}
+A tactical decision is smaller than a strategic decision it seeks to deal with the distribution and use of resources available to the team. Moe et al. described it as: 
+\begin{quote}
+Tactical decisions are related to identification and use of resources.
+\end{quote}
+All actions that specifically proposes to identification of resources or proposes changes to how resources are spent will be classified as tactical.
+\paragraph{Operational}
+Moe et al. describes an operational decision as: 
+\begin{quote}
+Operational decisions deal with ensuring effectiveness of day-to-day operations within the organization. 
+\end{quote}
+Every action that are restricted to only day-to-day operations will be classified as operational decisions. They might be quick fixes that solve a single problem. 
+\paragraph{Undefined}
+An undefined decision might be difficult to categorize because of a lack of context or an unclear description.
+
+\section{Organizational Learning}
+Organizational learning is a process where an organization takes steps to improve its current work environments by reacting to issues that arise. These steps can be varied, and we divide them into single-loop, double-loop and undefined. Retrospectives have a central role in 	organizational learning, as described by Dingsøyr ~\cite{Dingsoyr2007}
+\paragraph{Single-loop}
+A single-loop action is an action designed to change or tune a process in order to improve it. The action does not seek to address underlying problems, and are a single-feedback loop from observing an issue to making a change. A retrospective can facilitate single-loop learning where the project team uses the input during the retrospective to make adjustments to their current work ~\cite{Dingsoyr2004}
+\paragraph{Double-loop}
+A double-loop action is designed to solve an issue, as well as address the underlying cause of the issue. This requires an understanding of the underlying issue and the nature of its influence. Double-loop decisions can be facilitated through a retrospective, often these are as a result of a more drastic need for change and an understanding of the underlying problem. ~\cite{Dingsoyr2004}
+\paragraph{Undefined}
+An action might not be clearly described, or the nature of the action can not be interpreted. We will classify these actions as undefined.
+
+\section{Development}
+An issue that is related to the development of the product is included in this category. The development process is the actual work performed to create the product, as well as processes directly related to this work. The different categories included in development were chosen after discussing with advisors, as well as personal experience from the writers
+\paragraph{Development}
+Development includes the writing of code, specifying requirements, construction the system architecture and other aspects of designing of the system. 
+\paragraph{Planning}
+An action that is categorized as planning is when the action is suggesting changes to planning in future iterations or is a result of an issue occurring in a former iteration. Estimations, task-prioritization, scheduling and etc. all goes under the planning category.
+\paragraph{Testing}
+Issues related to the testing of a product, this includes unit, module and system testing. Issues related to testing can also be communication between testers and developers.
+\paragraph{Documentation}
+Action that are categorized as documentation is those that are related to the documentation part of developing a system. Typical actions are those that describe or propose changes to documentation practices. This can also include tutorials that explains the product and improves usability. 
+\paragraph{Builds}
+During development of a software system building the software system can be a tiresome task. The actions that are categorized as builds are those who proposes practices that changes the current build practices.
+\paragraph{Release}
+When a system feature or a part of a system is finished, usually at the end of an iteration, one deploy the new part of the system into production, available for the users. For the actions that categorized as release, the action describe some aspect of the release practice and either proposes changes or suggest new practices.
+\paragraph{Business}
+Business development is a critical part for an organization to create profit. Software system often can save costs and create new business opportunities and as a part of a software development team one also has to consider business perspectives. We categorize all actions that are related to business development or proposes some business related changes as business. 
+\paragraph{Undefined} If an action is neither of the development phases described above we classify it as undefined. 
+
+\section{Collaboration}
+One of the aspects during a software developing process is collaboration. Fægri ~\cite{Faegri2012} describes collaboration as the following: 
+\begin{quote}
+Collaboration is a key aspect of software development. Collaboration allows groups of software practitioners to deal with uncertainty, complexity and interdependence. And in dealing with these challenges, the group demonstrates its collective problem-solving ability.
+\end{quote}
+Through our pilot analysis we registered several activities that are related to collaboration. Communication, leadership, competence, external relations and planning all belongs beneath the collaboration banner, and we describe in detail how we classify each of them below. 
+\paragraph{Communication}
+Communication is a widely used word and concept, but it rarely is defined. By using Merriam-Webster dictionary ~\cite{MerriamWebster2015} we found a definition that can serve as a clarification: 
+\begin{quote}
+The act or process of using words, sounds, signs, or behaviors to express or exchange information or to express your ideas, thoughts, feelings, etc., to someone else.
+\end{quote}
+Nakakoji et al. ~\cite{Nakakoji2010} distinguishes between two types of communication related to software development, coordination communication and expertise communication. The first one being the process of coordinating the development activities and the last one being when a developer obtain some information regarding a software artifact, either through code comments, wikis or other means. 
+We are however not going to distinguish between these two communication types in our content analysis as we believe the two differentiations is covered by the context of the action as described in \autoref{method:context}. For our content analysis we are simply going to count every instance of communication for every action that is related to communication between team-members regardless if it is through text, speech or other means of communication.
+\paragraph{Leadership}
+As is the case with communication, leadership is also widely used concept, that is rarely specified. Again we turn to Merriam-Webster \cite{MerriamWebster2015} for a definition: 
+\begin{quote}
+The power or ability to lead other people.
+\end{quote}
+Agile development teams is often self-organized as it is one of the principles in the agile manifesto \cite{AgileManifesto2015}. This can result in no clear leadership. For our content analysis we are going to consider decisions and guidelines set by the group itself as leadership activities. We categorize actions as leadership if they somehow suggests changes to leadership or if the actions is a result of some leadership related issue. 
+\paragraph{Competence}
+We define competence as the ability to perform a certain task in a adequate quality. Each member within an agile team has their own set of knowledge that they use to solve different tasks. If any issues arises and the group is lacking the knowledge to counter it we categorize the action created to resolve it as an competence action. An example could be issue of lacking the knowledge resolving a database error and the action is to send one developer at a database course. This action would then be categorized as an competence action.
+\paragraph{External Relations}
+By the category external relations we mean if the team has any actions that is a result of issues arising from external factors or the actions that team is creating to inflict some external factors. Example of external relations can be customer relations, communication with server maintenance team or other development teams.   
+\paragraph{Undefined}
+For those actions that the origin is unclear and the goal is not related to any of the collaboration categories we categorize them as undefined.
+
 \chapter{Shared Mental Models}
 \label{section:mental-models}
 The theory of shared mental models is from cognitive psychology, and can be used as a lens to evaluate agile development and methodology as described by Petter et al\cite{Petter2013}. The concept is that a team has a shared mental model that is central to the mutual understanding between team members, and thus essential to project success. Without a good shared mental model a team is left with a poor understanding of the task at hand, as well as barriers for cooperation. Two metrics used to measure a team's shared mental model are ``similarity'' and ``accuracy''. Where ``similarity'' is the degree which the shared mental model is similar between team members, and ``accuracy'' is the degree which the shared mental model matches objective measures. 
